@@ -3,7 +3,7 @@ Repository containing the case about intent classification for the In-House day 
 
 ## Installation
 ```
-curl -sSL https://install.python-poetry.org | python3.9 - 
+pip install poetry
 poetry install
 poetry run python -m ipykernel install --user --name inhouse-day-cognac --display-name 'Python inhouse-day-cognac' 
 ```
