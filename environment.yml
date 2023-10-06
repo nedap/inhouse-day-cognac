@@ -1,0 +1,17 @@
+name: inhouse-day-cognac
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.9.12
+  - scikit-learn
+  - numpy
+  - pandas
+  - scipy
+  - tensorflow
+  - ipykernel
+  - seaborn
+  - librosa
+  - pydub
+  - pip:
+    - keras-nlp
